@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<div class="section">
+  <div class="w-container">
+    <div class="w-dyn-list">
+      <div class="w-dyn-items w-row">
+        {% for release in site.releases reversed limit: 4 %}
+          {% include release.html content=release %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
