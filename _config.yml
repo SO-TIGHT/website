@@ -36,6 +36,9 @@ markdown: kramdown
 destination: public
 gems:
   - jekyll-feed
+  - jekyll-redirect-from
+plugins:
+  - jekyll-redirect-from
 exclude:
   - Gemfile
   - Gemfile.lock
