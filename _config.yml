@@ -42,3 +42,6 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+# Google Analytics
+google_analytics: UA-121866323-1
