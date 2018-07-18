@@ -3,5 +3,6 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 permalink: /union
-layout: home
+redirect_to: 
+ - https://mailchi.mp/2de4c4eea13d/union
 ---
