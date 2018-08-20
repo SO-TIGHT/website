@@ -77,6 +77,67 @@ blockquote {
   line-height: 22px;
 }
 
+.bottom-margin-10 {
+  margin-bottom: 10px;
+}
+
+.minimum-height-300 {
+  min-height: 300px;
+}
+
+#union {
+  color: white;
+  background-image: url("/assets/images/union/union.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  font-size: 150%;
+  min-height: 300px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#union h1 {
+  font-size: 300%;
+  letter-spacing: -0.1em;
+  margin-top: 20px;
+}
+
+#union h2 {
+  font-size: 200%;
+  letter-spacing: -0.1em;
+  margin-top: 20px;
+}
+
+#union-ball {
+  background-image: url("/assets/images/union/union_ball.png");
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  float: left;
+  padding: 10px;
+}
+
+#union .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#union .union-text {
+  text-align: left;
+  padding: 10px;
+}
+
+#union .button {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
 .button {
   display: inline-block;
   padding: 11px 20px;
@@ -1047,4 +1108,3 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
     padding-bottom: 40px;
   }
 }
-
