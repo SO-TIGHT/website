@@ -77,15 +77,28 @@ blockquote {
   line-height: 22px;
 }
 
+iframe {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .bottom-margin-10 {
   margin-bottom: 10px;
+}
+
+.padding-10 {
+  padding: 15px;
 }
 
 .minimum-height-300 {
   min-height: 300px;
 }
 
-#union {
+.centered-text {
+  text-align: center;
+}
+
+#union-banner {
   color: white;
   background-image: url("/assets/images/union/union.jpg");
   background-size: cover;
@@ -99,13 +112,13 @@ blockquote {
   justify-content: center;
 }
 
-#union h1 {
+#union-banner h1 {
   font-size: 300%;
   letter-spacing: -0.1em;
   margin-top: 20px;
 }
 
-#union h2 {
+#union-banner h2 {
   font-size: 200%;
   letter-spacing: -0.1em;
   margin-top: 20px;
@@ -120,18 +133,18 @@ blockquote {
   padding: 10px;
 }
 
-#union .container {
+#union-banner .container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-#union .union-text {
+#union-banner .union-text {
   text-align: left;
   padding: 10px;
 }
 
-#union .button {
+#union-banner .button {
   width: 200px;
   margin-left: auto;
   margin-right: auto;
