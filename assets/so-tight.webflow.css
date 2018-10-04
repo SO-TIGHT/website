@@ -77,6 +77,10 @@ blockquote {
   line-height: 22px;
 }
 
+.tickets {
+  min-height: 425px;
+}
+
 iframe {
   padding-top: 10px;
   padding-bottom: 10px;
