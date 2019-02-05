@@ -103,7 +103,7 @@ iframe {
 }
 
 #union-banner {
-  color: white;
+  color: black;
   background-image: url("/assets/images/union/union.jpg");
   background-size: cover;
   background-attachment: fixed;
